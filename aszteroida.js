@@ -127,7 +127,7 @@ window.addEventListener("keydown", gombLe);
 button = document.querySelector("button");
 button.addEventListener("click", start);
 
-// itt startol el az alkalmazásom
+// itt startol el az alkalmazásom - 2024.04.09.
 function start() {
     kezdoAllapot();
     idozito = setInterval(kovetkezoAllapot, frissitesiIdo);
